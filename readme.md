@@ -30,3 +30,5 @@ If you are running [docker-machine](https://docs.docker.com/machine/) and do not
 sync your VM clocks, they will eventually [start to drift](https://google.com/search?q=docker-machine%20clock%20drift).
 As of right now, the best solution is to SSH into each machine and [sync the clocks yourself](http://stackoverflow.com/questions/22800624/will-docker-container-auto-sync-time-with-the-host-machine).
 This tool will do it automatically for you.
+
+License: MIT
