@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "standard": "^8.1.0"
+  },
+  "dependencies": {
+    "docker-machine": "https://github.com/dikarel/node-docker-machine"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
