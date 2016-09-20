@@ -1,6 +1,6 @@
 const DockerMachine = require('docker-machine')
 
-console.log('Syncing Docker machine clocks against pool.ntp.org every 5 minutes')
+console.log('Syncing VM clocks against pool.ntp.org every 5 minutes')
 setInterval(sync, 300000)
 sync()
 
