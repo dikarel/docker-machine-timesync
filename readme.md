@@ -3,6 +3,9 @@
 Prevent clock drift by periodically syncing [docker-machine](https://docs.docker.com/machine/)
 VM clocks
 
+[![Build Status](https://travis-ci.org/dikarel/docker-machine-timesync.svg?branch=master)](https://travis-ci.org/dikarel/docker-machine-timesync)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 ### Quickstart
 
 Step 1: Install it
