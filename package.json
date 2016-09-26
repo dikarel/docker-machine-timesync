@@ -2,7 +2,7 @@
   "name": "docker-machine-timesync",
   "description": "Prevent clock drift by periodically syncing docker-machine VM clocks",
   "author": "Darius I. Karel <me@dikarel.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "keywords": [
     "docker",
@@ -27,7 +27,7 @@
     "standard": "^8.1.0"
   },
   "dependencies": {
-    "docker-machine": "https://github.com/dikarel/node-docker-machine"
+    "docker-machine": "^2.0.0"
   },
   "scripts": {
     "test": "standard"

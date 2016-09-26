@@ -1,6 +1,6 @@
 # docker-machine-timesync
 
-Prevent clock drift by periodically syncing [docker-machine](https://docs.docker.com/machine/)
+Prevent [clock drift](https://google.com/search?q=docker-machine%20clock%20drift) by periodically syncing [docker-machine](https://docs.docker.com/machine/)
 VM clocks
 
 [![Build Status](https://travis-ci.org/dikarel/docker-machine-timesync.svg?branch=master)](https://travis-ci.org/dikarel/docker-machine-timesync)
@@ -15,7 +15,7 @@ Step 1: Install it
 Step 2: Run it
 
     $ docker-machine-timesync
-    Syncing VM clocks against pool.ntp.org every 5 minutes
+    Syncing VM clocks against pool.ntp.org roughly every 5 minutes
     default clock synced
     agent-1 clock synced
     agent-2 clock synced
